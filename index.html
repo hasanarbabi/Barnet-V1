@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hasanarbabi">
+    <meta name="description" content="finalproject">
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Final Project</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="branding">
+                <a href="./index.html"><img src="./images/logo.svg" alt="بارنت | سامانه باربری توافقی"></a>
+            </div>
+            <b>
+                <div class="menu">
+                    <button type="button" class="slide_down_menu"><svg width="2.5em" height="2.5em" viewBox="0 0 16 15" class="bi bi-menu-button-wide-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M14 7H2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1zM2 6a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H2z"/>
+                        <path fill-rule="evenodd" d="M15 11H1v-1h14v1zM2 12.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm9.927.427l.396.396a.25.25 0 0 0 .354 0l.396-.396A.25.25 0 0 0 13.396 2h-.792a.25.25 0 0 0-.177.427z"/>
+                      </svg></button>
+                    <ul>
+                        <li><a href="#home">خانه</a></li>
+                        <li><a href="#user">صاحبین بار</a></li>
+                        <li><a href="#driver">رانندگان</a></li>
+                        <li><a href="#download">دانلود</a></li>
+                        <li><a href="#about">درباره بارنت</a></li>
+                        <li><a href="#contact">تماس با ما</a></li>
+                        <li><a href="./pages/terms.html">قوانین و مقررات</a></li>
+                    </ul>
+                </div>
+            </b>
+
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><b>ورود / ثبت نام</b></button>
+
+            <div id="id01" class="modal">
+  
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="./images/avatar.png" alt="Avatar" class="avatar" max-width="50px">
+                  </div>
+              
+                  <div class="container">
+                    <label for="uname"><b>لطفا شماره موبایل خود را وارد نمایید</b></label>
+                    <input type="text" placeholder="*******0912" name="uname" required>
+
+                    <button type="submit"><b>ادامه</b></button>
+                  </div>
+                </form>
+            </div>
+        </nav>
+
+        <ul class="ul_menu">
+            <li><a href="#home">خانه</a></li>
+            <li><a href="#user">صاحبین بار</a></li>
+            <li><a href="#driver">رانندگان</a></li>
+            <li><a href="#download">دانلود</a></li>
+            <li><a href="#about">درباره بارنت</a></li>
+            <li><a href="#contact">تماس با ما</a></li>
+            <li><a href="./pages/terms.html">قوانین و مقررات</a></li>
+        </ul>
+    </header>
+
+    <main class="container">
+        <section class="home" id="home">
+            <h1>بارنت | سامانه باربری توافقی</h1>
+            <video src="./video/barnet.mp4" width="960px" controls></video>
+        </section>
+
+        <section class="user" id="user">
+            <div class="text">
+                <h1>صاحبین بار مستقیم و سریع به رانندگان وصل شوید</h1>
+                <p>فرقی نداره چه باری ، از وانت تا تریلی : ارزان و بی واسطه بار خود حمل کنید</p>
+                <h1>برخی از ویژگی های بارنت برای صاحبین بار</h1>
+                <ul>
+                    <li>رهگیری لحظه ای کلیه خودروهای رزروی و در مسیر (روی نقشه )</li>
+                    <li>امکان دریافت همزمان چند خودرو برای مسیر های متفاوت</li>
+                    <li>امکان دریافت رقابتی ترین پیشنهاد ها از رانندگان</li>
+                    <li>امکان رزرو خودرو برای زمان دلخواه</li>
+                    <li>دریافت ژتون به ازای هر حمل بار</li>
+                    <li>امکان پرداخت نقدی و آنلاین</li>
+                </ul>
+            </div>
+            <div class="images">
+                <img src="./images/02-01.jpg" alt="" width="250px" height="200px">
+                <img src="./images/02-02.jpg" alt="" width="250px" height="200px">
+                <img src="./images/02-03.jpg" alt="" width="250px" height="200px">
+            </div>
+        </section>
+
+        <section class="driver" id="driver">
+            <div class="text">
+                <h1>راننده های باری بیشتر دیده شوید : معطلی کمتر ، درآمد بیشتر</h1>
+                <p>بارنت طوری طراحی شده که به شما براساس مسیر مورد علاقه و یا کلیه مسیرها درخواست بار ارسال میگردد که با دادن پیشنهاد قیمت میتوانیدانتخاب و بار خود را از مبدا حمل نماید</p>
+                <h1>برخی از ویژگی های بارنت برای رانندگان</h1>
+                <ul>
+                    <li>امکان دادن پیشنهاد قیمت و مشاهده پیشنهاد رانندگان رقیب و تغییر قیمت بطور زنده</li>
+                    <li>امکان افزایش روزهای رایگان با معرفی افراد بیشتر</li>
+                    <li>دریافت نزدیک درخواست های اطراف شما</li>
+                    <li>کمیسیون کم پس از طی دوره رایگان</li>
+                    <li>رایگان به مقدار روزهای تعیین شده</li>
+                </ul>
+            </div>
+            <div class="images">
+                <img src="./images/02-08.jpg" alt="" width="250px" height="200px">
+                <img src="./images/02-09.jpg" alt="" width="250px" height="200px">
+                <img src="./images/02-10.jpg" alt="" width="250px" height="200px">
+            </div>
+        </section>
+
+        <section class="download" id="download">
+            <div class="user-d">
+                <h1>دریافت اپلیکیشن کاربران</h1>
+                <img src="./images/download badges-03.png" alt="" width="300px">
+                <img src="./images/download badges-02.png" alt="" width="300px">
+                <img src="./images/download badges-01.png" alt="" width="300px">
+            </div>
+            <div class="driver-d">
+                <h1>دریافت اپلیکیشن رانندگان</h1>
+                <img src="./images/download badges-03.png" alt="" width="300px">
+                <img src="./images/download badges-02.png" alt="" width="300px">
+                <img src="./images/download badges-01.png" alt="" width="300px">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+                <div class="text">
+                    <h3>بارنت چیست ؟</h3>
+                <p>
+                  بارنت یک پروژه ی استارت آپ منحصر به فرد و کاربردی است که براساس مدرنیزه کردن سیستم سنتی باربری انواع خودروها
+                  (سبک
+                  و سنگین) طراحی شده است . <strong>بارنت هیچگونه دخالتی در تعیین قیمت حمل بار برای رانندگان و مشتریان
+                    ندارد</strong> و به دلیل
+                  رایگان بودن برای مدت معین و سپس کمیسیون بسیار کم موجبات رضایتمندی رانندگان و مشتریان را فراهم می نماید.
+                  این سامانه به دلیل امکان رزرو بارهای برگشتی میلیاردها لیتر سوخت در سال برای کشور صرفه جویی می نماید.</p>
+                <strong>
+                  فرآیند انتقال بار در بارنت به شرح زیر است :</strong>
+                <p>1- باربری ها یا صاحبین بار، مبدا ، مقصد ، زمان حمل و اطلاعات بار خود را وارد نموده و این درخواست بلافاصله بطور
+                  زنده به کلیه رانندگان ارسال میشود.</p>
+                <p>2- رانندگانی که به حمل این بار ابراز تمایل کنند می توانند پیشنهاد قیمت خود را اعلام نموده و حتی قیمت های
+                  پیشنهادی
+                  رانندگان دیگر را به صورت زنده مشاهده نموده و در صورت صلاحدید چند بار پیشنهاد ها خود را تغییر دهند. </p>
+                <p>3- این فرآیند به طور زنده برای کاربر درخواست کننده (باربری یا صاحب بار) قابل مشاهده است . درخواست کننده میتواند
+                  هر راننده ای را که براساس معیارهای قیمتی ، امتیاز ، کیفیت خودرو ، نزدیکی خودرو و ... انتخاب نمایند . پس از
+                  انتخاب راننده توسط درخواست کننده راننده نیز ملزم به تایید می باشد.</p>
+                <p>4- فرآیند پرداخت برای تضمین تعهد طرفین انجام میگردد.</p>
+                <p>5- صادر شدن فاکتور بارنتی برای جابجایی داخل شهری و یا بارنامه رسمی (پلیس راهی) برای جابجایی بار بین شهری از
+                  اولین
+                  باربری دریافت و حرکت راننده به سمت مبدا برای حمل بار.</p>
+                <p>6- امتیاز دهی طرفین به یکدیگر و پایان عملیات باربری.</p>
+          
+                <p>
+                  در تمامی مراحل بالا ریز اطلاعات نظیر برگه بیمه ، بارنامه رسمی ، عکس بار و ... قابل بارگذاری خواهد بود.
+                </p>
+                <strong> این سامانه در سیستم وب و اپلیکیشن اندروید و آی او اس (اپل) قابل دسترسی است.</strong>
+                </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <section class="contact" id="contact">
+            <div class="email">
+                <svg width="10em" height="10em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color: #ffbf1d;">
+                    <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                </svg>
+                <h1>آدرس ایمیل</h1>
+                <p>info@barnet.app</p>
+            </div>
+            <div class="address">
+                <svg width="10em" height="10em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color: #ffbf1d;">
+                    <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+                <h1>آدرس شرکت</h1>
+                <p>چهارراه پارک وی، ساختمان زایس، واحد 4 <br> شرکت الماس نشان البرز</p>
+            </div>
+            <div class="tel">
+                <svg width="10em" height="10em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color: #ffbf1d;">
+                    <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                </svg>
+                <h1>تلفن تماس</h1>
+                <p>021-22605820</p>
+            </div>
+        </section>
+
+        <section class="namad">
+            <a href=""><img src="./images/enamad.png" alt=""></a>
+            <a href=""><img src="./images/saman.png" alt=""></a>
+            <p>تمام حقوق این وبسایت متعلق به شرکت الماس نشان البرز است</p>
+            <p>طراحی و پیاده سازی توسط تیم بارنت</p>
+        </section>
+    </footer>
+
+
+
+
+
+    <script>
+        var modal = document.getElementById('id01');
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
