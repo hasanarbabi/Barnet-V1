@@ -468,24 +468,3 @@ img.avatar {
         margin: 50px 0;
     }
 }
-
-@media (max-height: 600px) {
-    .home video {
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .container {
-        max-width: 60%;
-        margin: 0 auto;
-    }
-
-    .contact {
-        max-width: 60%;
-        margin: 0 auto;
-    }
-
-    .user img, .driver img {
-        max-width: 200px;
-    }
-}
