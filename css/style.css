@@ -238,12 +238,22 @@ img.avatar {
 }
 
 .user .images, .driver .images {
-    background-color: #ffbf1d;
+    /* background-color: #ffbf1d; */
     display: flex;
     justify-content: space-around;
     border-radius: 15px;
     box-shadow: 0 0 10px #ffbf1d;
     padding: 20px 0;
+}
+
+.user .images {
+    background-color: #ffbf1d;
+}
+
+.driver .images, .driver .text {
+    color: #f1f1f1;
+    background-color: #2a2e43;
+    box-shadow: 0 0 10px #2a2e43;
 }
 
 .download {
